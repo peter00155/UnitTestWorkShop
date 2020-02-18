@@ -1,0 +1,21 @@
+{
+    "name": "piotr/unit-test-workshop",
+    "authors": [
+        {
+            "name": "peter00155",
+            "email": "peter00155@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\":"core/",
+            "Tests\\":"tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
